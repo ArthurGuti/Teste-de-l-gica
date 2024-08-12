@@ -20,19 +20,20 @@
         <input type="text" id="nome" placeholder="Digite seu nome" wfd-id="id2" />
         <button id="botaoDireita" onclick="obterValor()">Conferir valor</button>
     </div>
-
+    
     <div id="livro">
         <label for="nome" class="texto">Livro:</label>
         <input type="text" id="nomeLivro" placeholder="Digite o nome do livro" oninput="exibirValor()" wfd-id="id3" />
         <br>
         <label class="texto">Livro:   </label><label id="labelDisplay"> 
-    </div>
-
-    <!-- Fazer soma aqui (e função no JS) -->
-    <div id="soma">
-        <label for="idade" class="texto">Idade:</label> 
-        <input type="text" id="idade" placeholder="Digite sua idade" wfd-id="id4" />
-        <br>
+        </div>
+        
+        <!-- Fazer soma aqui (e função no JS) -->
+        <div id="soma">
+            <label for="idade" class="texto">Idade:</label> 
+            <input type="number" id="idade" placeholder="Digite sua idade" wfd-id="id4" />
+            <br>
+            <button id="botaoDireita" onclick="somar()">Idade + 2</button>
     </div>
     <!-- Referência ao arquivo JavaScript  -->
     <script src="./index.js"></script>
